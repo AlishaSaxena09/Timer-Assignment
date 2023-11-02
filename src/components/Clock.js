@@ -34,8 +34,6 @@ const chartData = calculateDataForChart(timeSlots);
 
 export default function Clock() {
   return (
-    // Responsive container doesn't support rendering list
-    // <ResponsiveContainer width="100%" height="100%">\
     <div className="container">
       <div className="clock-container">
         {chartData.map((record) => {
